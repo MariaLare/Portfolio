@@ -1,0 +1,77 @@
+img{
+    width: 12%;
+    height: 35%;
+}
+body{
+    background-color: rgb(124, 145, 145);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+hr{
+    border: 0,8px solid;
+    border-color: rgb(255, 255, 255);
+    width: 70;
+}
+#Juliaeeu{
+    border-radius: 0%;
+    width: 15%;
+    height: 20%;
+}
+#Menezeeu{
+    border-radius: 0%;
+    width: 17%;
+    height: 20%;
+}
+#Festinhanaescola{
+    border-radius: 0%;
+    width: 29%;
+    height: 20%;
+}
+#saladeaula{
+    border-radius: 0%;
+    width: 40%;
+    height: 20%;
+}
+#pesqueiro{
+    border-radius: 0%;
+    width: 20%;
+    height: 20%;
+
+ }   /*Abaixo estamos estilizando o icone por meio da classe do comando usando o ponto (.) antes do nome*/
+.icone{
+    border-radius: 50%;
+    width: 7%;
+    height: 7%;
+}
+    section{
+        /*modificacao aula 24/10*/
+        /*Estilizando o elemento pelo nome comando*/
+        background-color: rgb(95, 126, 151);
+        border: 1px solid;
+        border-color: rgb(133, 147, 207);
+        margin:5%;
+        padding: 2%;/*Define o espaco entre o limite da pagina web e os elementos em que ele esta contido*/
+    
+}
+ #ladoalado2{
+    width: 100%;
+    display: flex;/*Usa um loyout flexivel para alinhar o elemento*/
+    align-items: center;/*Alinhamento vertical dos itens*/
+    gap: 1rem;/*Espaço entre os elementos*/
+    z-index: 1;
+    align-items: center;
+}
+.ladoalado{
+    display: flex; /*usa um layout flexível para alinhar os elementos*/
+    align-items: center; /*Alinhamento vertical dos itens*/
+    justify-content: center; /*Alinhamento horizontal dos itens*/
+    gap: 1rem; /*Espaço entre os elemntos*/
+}
+
+.menu-item:hover{
+   font-weight: 100;
+   color: blanchedalmond;
+   background-color: bisque;
+}
+#inicio{
+    margin-top: 60px;
+}
